@@ -1,0 +1,20 @@
+{
+    "require": {
+        "phroute/phroute": "^2.1",
+        "jasongrimes/paginator": "~1.0",
+	"php-activerecord/php-activerecord": "^1.1.2"
+    },
+    "autoload": {
+        "psr-4": {
+             "TaskBook\\": "src/",
+             "TaskBook\\Controllers\\": "src/controllers/",
+             "TaskBook\\Models\\": "src/models/",
+             "TaskBook\\Views\\": "src/views/",
+             "TaskBook\\Utils\\": "src/utils/"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.5",
+        "robmorgan/phinx": "^0.9.1"
+    }
+}
